@@ -1,0 +1,36 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row" style="margin-top: 20px ;">
+            <div class="col-md-6 offset-md-3">
+                <mat-card>
+                    <div class="container text-center">
+                        <img src="../../../assets/examIcon.jpg" alt=""/>
+                        <h1>Login</h1>
+                            <form action="">
+                                <!-- username field -->
+                                    <mat-form-field class ="full-width" appearance="outline">
+                                    <mat-label>Username</mat-label>
+                                    <input 
+                                    required
+                                    name="userName"
+                                    matInput placeholder="Enter here"/>
+                                    </mat-form-field>
+                                
+                                    <!-- password -->    
+                                    <mat-form-field class ="full-width" appearance="outline">
+                                        <mat-label>Password</mat-label>
+                                        <input 
+                                        required
+                                        name="passwrod"
+                                        type="password" matInput placeholder="Enter here"/>
+                                    </mat-form-field>
+                                    <div class="container text-center">
+                                        <button type="submit" mat-raised-button color="primary">Log In</button>
+                                        <button class="space" mat-raised-button color="warn">Cancel</button>
+                                    </div>
+                            </form>
+                    </div>
+            </mat-card>
+        </div>
+    </div>
+</div>
